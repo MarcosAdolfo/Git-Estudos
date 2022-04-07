@@ -1,0 +1,52 @@
+def area(a, b):
+    """
+    Calcula a area Quadrada.
+    :param a: comprimento
+    :param b: lagura
+    :return: area
+    """
+    area = a * b
+    return area
+
+def area2D(a, b):
+    x = int(a)
+    y = int(b)
+    metx = int(x/2)
+    mety = int((len(str(b))-y)/2)*-1
+    #print(mety)
+    cont = 0
+    print(f'    | {"- "*metx}{a}m{" -"*metx} |')
+    print('   _')
+    for n in range(0, y):
+        if cont < y:
+
+            if n == mety:
+                for d in str(b):
+                    cont += 1
+                    print(d, end=' ')
+                    print('|  ', end='')
+                    if cont <= y:
+                        print('■ ' * x)
+                    else:
+                        print('')
+                print('m |  ',end='')
+                if cont < y:
+                    print('■ ' * x)
+                cont += 1
+
+            else:
+                cont += 1
+                print('  ', end='')
+                print('| ', end=' ')
+                print('■ ' * x)
+    print('   ‾')
+
+
+help(area)
+largura = float(input('Largura em Metros (m): '))
+comprimento = float(input('Comprimento em Metros (m): '))
+resu = area(largura, comprimento)
+area2D(largura, comprimento)
+
+print(f'A area Quadrada é {resu:>.2f}m² (metros ao quadrado)')
+

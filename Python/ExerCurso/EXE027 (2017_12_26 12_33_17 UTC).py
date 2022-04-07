@@ -1,0 +1,5 @@
+nome = str(input('\033[1;32;47m Seu Nome: ')).strip().lower()
+print('\033[1;31;47m Ola {} Seija bem vindo!'.format(nome.title()))
+prm = nome.split()
+print('\033[1;30;47m Seu primeiro Nome é {}'.format(prm[0].title()))
+print('\033[1;30;47m Seu utimo Nome é {}'.format(prm[len(prm) - 1].title()))
