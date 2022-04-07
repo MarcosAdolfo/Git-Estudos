@@ -1,2 +1,5 @@
 # Git Estudos
- Codigos feitos durante periodo de estudos. codigos de varias linguagens e periodos feitos. em atualização
+ Códigos feitos durante períodos de estudos.
+ Códigos de varias linguagens e períodos.
+ 
+ Em Atualização
