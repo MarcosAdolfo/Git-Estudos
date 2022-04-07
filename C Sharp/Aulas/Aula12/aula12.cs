@@ -1,0 +1,41 @@
+using System; 
+
+namespace Aula12
+{
+
+    class aula12
+    {
+        static void Main()
+        {
+            //SE(E_L){}
+            //10 < 5 = false
+            // < > <= >= ==
+            int n1,n2,n3,n4,res;
+            n1=n2=n3=n4=res=0;
+
+            string resutado = "Reprovado";
+
+            Console.Write("Digite a Nota 1: ");
+            n1 = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite a Nota 2: ");
+            n2 = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite a Nota 3: ");
+            n3 = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite a Nota 4: ");
+            n4 = int.Parse(Console.ReadLine());
+
+            res = n1+n2+n3+n4;
+
+            if(res >= 60)
+            {
+                resutado = "Aprovado";
+            }
+
+            Console.WriteLine("{0}! Nota: {1}",resutado,res);
+        }
+    }
+
+}
