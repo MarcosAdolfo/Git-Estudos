@@ -1,0 +1,15 @@
+D:\Documentos\Git-Estudos\C_Sharp\CursoBalta\Stopwatch\bin\Debug\net6.0\Stopwatch.exe
+D:\Documentos\Git-Estudos\C_Sharp\CursoBalta\Stopwatch\bin\Debug\net6.0\Stopwatch.deps.json
+D:\Documentos\Git-Estudos\C_Sharp\CursoBalta\Stopwatch\bin\Debug\net6.0\Stopwatch.runtimeconfig.json
+D:\Documentos\Git-Estudos\C_Sharp\CursoBalta\Stopwatch\bin\Debug\net6.0\Stopwatch.dll
+D:\Documentos\Git-Estudos\C_Sharp\CursoBalta\Stopwatch\bin\Debug\net6.0\Stopwatch.pdb
+D:\Documentos\Git-Estudos\C_Sharp\CursoBalta\Stopwatch\obj\Debug\net6.0\Stopwatch.csproj.AssemblyReference.cache
+D:\Documentos\Git-Estudos\C_Sharp\CursoBalta\Stopwatch\obj\Debug\net6.0\Stopwatch.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Git-Estudos\C_Sharp\CursoBalta\Stopwatch\obj\Debug\net6.0\Stopwatch.AssemblyInfoInputs.cache
+D:\Documentos\Git-Estudos\C_Sharp\CursoBalta\Stopwatch\obj\Debug\net6.0\Stopwatch.AssemblyInfo.cs
+D:\Documentos\Git-Estudos\C_Sharp\CursoBalta\Stopwatch\obj\Debug\net6.0\Stopwatch.csproj.CoreCompileInputs.cache
+D:\Documentos\Git-Estudos\C_Sharp\CursoBalta\Stopwatch\obj\Debug\net6.0\Stopwatch.dll
+D:\Documentos\Git-Estudos\C_Sharp\CursoBalta\Stopwatch\obj\Debug\net6.0\refint\Stopwatch.dll
+D:\Documentos\Git-Estudos\C_Sharp\CursoBalta\Stopwatch\obj\Debug\net6.0\Stopwatch.pdb
+D:\Documentos\Git-Estudos\C_Sharp\CursoBalta\Stopwatch\obj\Debug\net6.0\Stopwatch.genruntimeconfig.cache
+D:\Documentos\Git-Estudos\C_Sharp\CursoBalta\Stopwatch\obj\Debug\net6.0\ref\Stopwatch.dll
