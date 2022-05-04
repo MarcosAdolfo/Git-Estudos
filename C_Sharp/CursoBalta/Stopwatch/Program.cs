@@ -41,7 +41,7 @@ namespace Stopwatch
             Console.WriteLine("Set...");
             Thread.Sleep(1000);
             Console.WriteLine("Go...");
-            Thread.Sleep(2500);
+            Thread.Sleep(500);
 
             Start(time);
         }
