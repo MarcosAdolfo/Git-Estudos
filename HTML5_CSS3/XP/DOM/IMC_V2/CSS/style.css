@@ -1,0 +1,20 @@
+body
+{
+    padding: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: ghostwhite;
+}
+#P-result
+{
+    margin-top: 50px;
+}
+
+input
+{
+    width: 100px;
+}
+
+label
+{
+    font-family: 'JetBrains mono';
+}
