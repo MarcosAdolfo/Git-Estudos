@@ -1,3 +1,4 @@
+"""
 class Carro():
     def __init__(self, name, valor):
         self.nome = name;
@@ -21,3 +22,5 @@ class Valor():
 preco = Valor(16000,1076,300)
 carro1 = Carro("BMW", preco);
 print(carro1.nome, carro1.Total)
+"""
+
