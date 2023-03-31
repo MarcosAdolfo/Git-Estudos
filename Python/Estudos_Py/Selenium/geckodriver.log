@@ -1,0 +1,371 @@
+1679432596840	geckodriver	INFO	Listening on 127.0.0.1:64433
+1679432599929	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64434" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileyfq2lS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679432600357	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679432600363	Marionette	INFO	Listening on port 64560
+Read port: 64560
+WebDriver BiDi listening on ws://127.0.0.1:64434
+1679432601217	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileyfq2lS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64434/devtools/browser/ff3d880f-f7b1-4d32-b51f-6aedde4e08f8
+1679432723468	Marionette	INFO	Stopped listening on port 64560
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1679432723751	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@sys.mjs:51
+destroy()@sys.mjs:207
+deleteSession()@sys.mjs:142
+stop()@sys.mjs:229
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:576
+C:\Users\marco\.wdm\drivers\geckodriver\win64\0.32\geckodriver.exe: error: Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta). (os error 10048)
+geckodriver 0.32.2 (602aa16c20d4 2023-02-08 00:09 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1679432990918	geckodriver	INFO	Listening on 127.0.0.1:64694
+1679432993964	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64695" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilefC95GB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679432994341	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679432994344	Marionette	INFO	Listening on port 64710
+Read port: 64710
+WebDriver BiDi listening on ws://127.0.0.1:64695
+1679432994946	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilefC95GB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64695/devtools/browser/2efb2793-47f8-48ec-a6f8-4b1af77fcdf9
+JavaScript warning: https://c.adsco.re/, line 53: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.a169b1ec.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679433049637	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://c.adsco.re/, line 53: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679433790227	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: resource://gre/actors/SelectChild.jsm, line 294: TypeError: this.element is null
+1679433862064	Marionette	INFO	Stopped listening on port 64710
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+1679433874244	geckodriver	INFO	Listening on 127.0.0.1:65104
+1679433877302	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65105" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofile8XEFB8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679433878975	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679433878982	Marionette	INFO	Listening on port 65115
+Read port: 65115
+WebDriver BiDi listening on ws://127.0.0.1:65105
+1679433879123	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofile8XEFB8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65105/devtools/browser/7e62fe22-cde4-4894-8f9c-54a0dd96024f
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 468))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2019))
+JavaScript warning: https://c.adsco.re/, line 53: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.a169b1ec.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679433917778	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://c.adsco.re/, line 53: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.a169b1ec.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://c.adsco.re/, line 53: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://c.adsco.re/, line 53: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679435473207	Marionette	INFO	Stopped listening on port 65115
+Dynamically enable window occlusion 1
+[Parent 332, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1679435494784	geckodriver	INFO	Listening on 127.0.0.1:62805
+1679435497847	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62806" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileMtpUxh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679435498352	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679435498355	Marionette	INFO	Listening on port 62815
+Read port: 62815
+WebDriver BiDi listening on ws://127.0.0.1:62806
+1679435498470	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileMtpUxh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62806/devtools/browser/bbd3dcdd-f0fb-4d1a-8cca-a0535c8001b0
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.a169b1ec.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://c.adsco.re/, line 53: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679435537851	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1679435775680	Marionette	INFO	Stopped listening on port 62815
+Dynamically enable window occlusion 1
+1679435828175	geckodriver	INFO	Listening on 127.0.0.1:63088
+1679435831208	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63089" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilelbpOGl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679435831424	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679435831427	Marionette	INFO	Listening on port 63101
+Read port: 63101
+WebDriver BiDi listening on ws://127.0.0.1:63089
+1679435831897	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilelbpOGl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63089/devtools/browser/0d23ba35-46bf-47b4-9658-8db4c2fb0542
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://c.adsco.re/, line 53: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.a169b1ec.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679435864083	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1679435981550	Marionette	INFO	Stopped listening on port 63101
+Dynamically enable window occlusion 1
+1679443830409	geckodriver	INFO	Listening on 127.0.0.1:57322
+1679443833438	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57323" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileLSLIb2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679443833655	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679443833659	Marionette	INFO	Listening on port 57337
+Read port: 57337
+WebDriver BiDi listening on ws://127.0.0.1:57323
+1679443833800	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileLSLIb2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57323/devtools/browser/a2d48866-d450-4ece-97d5-851e701219ea
+JavaScript warning: https://c.adsco.re/, line 53: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.a169b1ec.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679443866461	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://c.adsco.re/, line 53: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679444502761	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: resource://gre/actors/SelectParent.jsm, line 743: TypeError: this.relevantBrowser is null
+1679444511082	Marionette	INFO	Stopped listening on port 57337
+Dynamically enable window occlusion 1
+1679444532579	geckodriver	INFO	Listening on 127.0.0.1:62155
+1679444535635	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62156" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilepmu1j0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679444535869	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679444535873	Marionette	INFO	Listening on port 62172
+Read port: 62172
+WebDriver BiDi listening on ws://127.0.0.1:62156
+1679444536037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofilepmu1j0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62156/devtools/browser/5a6b7c42-68b0-4440-80cc-141002a2cf04
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 468))
+JavaScript warning: https://c.adsco.re/, line 53: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.a169b1ec.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679444581456	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1679444717942	Marionette	INFO	Stopped listening on port 62172
+Dynamically enable window occlusion 1
+1679444785237	geckodriver	INFO	Listening on 127.0.0.1:62396
+1679444788278	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62397" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileOtM7tk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679444788520	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679444788525	Marionette	INFO	Listening on port 62408
+Read port: 62408
+WebDriver BiDi listening on ws://127.0.0.1:62397
+1679444789262	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileOtM7tk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62397/devtools/browser/38656f2e-8c12-4ec9-808f-d539fb1173df
+JavaScript warning: https://c.adsco.re/, line 53: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.a169b1ec.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679444823981	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1679444978719	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: resource://gre/actors/SelectChild.jsm, line 294: TypeError: this.element is null
+1679445033596	Marionette	INFO	Stopped listening on port 62408
+Dynamically enable window occlusion 1
+[Parent 6812, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1679445065846	geckodriver	INFO	Listening on 127.0.0.1:62713
+1679445068902	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62714" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileN5JcHI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679445069266	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679445069269	Marionette	INFO	Listening on port 62727
+Read port: 62727
+WebDriver BiDi listening on ws://127.0.0.1:62714
+1679445069730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileN5JcHI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62714/devtools/browser/2a8969d3-4758-47f7-a9bf-51d0828be422
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.a169b1ec.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://c.adsco.re/, line 53: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679445107893	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1679445229299	Marionette	INFO	Stopped listening on port 62727
+Dynamically enable window occlusion 1
+[Parent 21340, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1679445268851	geckodriver	INFO	Listening on 127.0.0.1:63007
+1679445271895	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63008" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileWOu2Yz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679445272149	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679445272152	Marionette	INFO	Listening on port 63018
+Read port: 63018
+WebDriver BiDi listening on ws://127.0.0.1:63008
+1679445272276	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileWOu2Yz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63008/devtools/browser/22cdb33d-f8a7-4900-a646-0c00dd156e76
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.a169b1ec.js, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://c.adsco.re/, line 53: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1679445308996	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1679445456080	Marionette	INFO	Stopped listening on port 63018
+Dynamically enable window occlusion 1
+C:\Users\marco\.wdm\drivers\geckodriver\win64\0.32\geckodriver.exe: error: Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta). (os error 10048)
+geckodriver 0.32.2 (602aa16c20d4 2023-02-08 00:09 +0000) 
+WebDriver implementation for Firefox
+
+USAGE:
+    geckodriver.exe [OPTIONS]
+
+OPTIONS:
+        --allow-hosts <ALLOW_HOSTS>...
+            List of hostnames to allow. By default the value of --host is allowed, and in addition
+            if that's a well known local address, other variations on well known local addresses are
+            allowed. If --allow-hosts is provided only exactly those hosts are allowed.
+
+        --allow-origins <ALLOW_ORIGINS>...
+            List of request origins to allow. These must be formatted as scheme://host:port. By
+            default any request with an origin header is rejected. If --allow-origins is provided
+            then only exactly those origins are allowed.
+
+        --android-storage <ANDROID_STORAGE>
+            Selects storage location to be used for test data (deprecated). [possible values: auto,
+            app, internal, sdcard]
+
+    -b, --binary <BINARY>
+            Path to the Firefox binary
+
+        --connect-existing
+            Connect to an existing Firefox instance
+
+    -h, --help
+            Prints this message
+
+        --host <HOST>
+            Host IP to use for WebDriver server [default: 127.0.0.1]
+
+        --jsdebugger
+            Attach browser toolbox debugger for Firefox
+
+        --log <LEVEL>
+            Set Gecko log level [possible values: fatal, error, warn, info, config, debug, trace]
+
+        --log-no-truncate
+            Disable truncation of long log lines
+
+        --marionette-host <HOST>
+            Host to use to connect to Gecko [default: 127.0.0.1]
+
+        --marionette-port <PORT>
+            Port to use to connect to Gecko [default: system-allocated port]
+
+    -p, --port <PORT>
+            Port to use for WebDriver server [default: 4444]
+
+        --profile-root <PROFILE_ROOT>
+            Directory in which to create profiles. Defaults to the system temporary directory.
+
+    -v
+            Log level verbosity (-v for debug and -vv for trace level)
+
+    -V, --version
+            Prints version and copying information
+
+        --websocket-port <PORT>
+            Port to use to connect to WebDriver BiDi [default: 9222]
+
+1679445485429	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63008" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileJQ4rNb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1679445485663	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1679445485667	Marionette	INFO	Listening on port 63313
+WebDriver BiDi listening on ws://127.0.0.1:63008
+Read port: 63313
+1679445486845	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\marco\\AppData\\Local\\Temp\\rust_mozprofileJQ4rNb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63008/devtools/browser/7a069d6e-941f-44d9-8820-025c2ee10b08
+JavaScript warning: https://c.adsco.re/, line 155: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://c.adsco.re/, line 155: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://c.adsco.re/, line 155: Failed to create WebGL context: WebGL is currently disabled.
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 0: asm.js type error: Asm.js optimizer disabled by 'asmjs' runtime option
+JavaScript warning: https://static.arc.io/broker/js/lazy-modules.a169b1ec.js, line 0: asm.js type error: Asm.js optimizer disabled by 'asmjs' runtime option
+JavaScript warning: https://static.arc.io/widget/js/core.js?987699e, line 7: Failed to create WebGL context: WebGL is currently disabled.
+1679445516498	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
